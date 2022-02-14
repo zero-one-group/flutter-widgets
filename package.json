@@ -1,0 +1,23 @@
+{
+  "name": "flutter-widgets",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "nx run zero-widgets:run",
+    "build": "nx run zero-widgets:buildApk",
+    "test": "nx run zero-widgets:test",
+    "clean": "nx run zero-widgets:clean"
+  },
+  "private": true,
+  "dependencies": {
+    "@nxrocks/nx-flutter": "^3.0.0"
+  },
+  "devDependencies": {
+    "@nrwl/cli": "13.8.1",
+    "@nrwl/tao": "13.8.1",
+    "@nrwl/workspace": "13.8.1",
+    "@types/node": "16.11.7",
+    "prettier": "^2.5.1",
+    "typescript": "~4.5.2"
+  }
+}
